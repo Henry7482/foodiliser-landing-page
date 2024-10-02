@@ -34,5 +34,8 @@
   },
   "optionalDependencies": {
     "typescript": "4.2.3"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0"
   }
 }
