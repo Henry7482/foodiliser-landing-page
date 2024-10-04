@@ -14,3 +14,15 @@ p {
 a {
     font-family: "Playfair Display", serif;
 }
+
+.custom-button {
+    background-color: #8B9E77; /* SAGE_GREEN */
+    padding: 0.7rem 4rem;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1), 0 2px 4px rgba(255, 255, 255, 0.06);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+.custom-button:hover {
+background-color: #6B8E23; /* Adjust this color as needed */
+transform: translateY(-0.25rem) scale(1.1);
+}

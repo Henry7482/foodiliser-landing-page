@@ -61,7 +61,7 @@ export default function Landing() {
                     with tailored solutions that drive impact and profitability
                   </p>
                   <button
-                    className="mt-6 rounded-full text-white text-2xl font-semibold"
+                    className="mt-6 rounded-full text-white text-2xl font-semibold custom-button"
                     style={{
                       backgroundColor: SAGE_GREEN,
                       padding: "0.7rem 4rem",
@@ -96,11 +96,9 @@ export default function Landing() {
             </svg>
           </div> */}
         </div>
-
         <section>
           <img alt="problems and solutions" src={problemAndSolution}></img>
         </section>
-
         <section
           className="relative pb-20 -mt-24"
           // style={{ backgroundColor: LIGHT_BEIGE }}
@@ -370,7 +368,6 @@ export default function Landing() {
             </div>
           </div>
         </section>
-
         {/* <section className="relative py-20">
           <div
             className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
@@ -507,18 +504,17 @@ export default function Landing() {
             </div>
           </div>
         </section> */}
-
         <section
           className="relative pt-20 pb-48"
           style={{ backgroundColor: SAGE_GREEN }}
         >
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
-              <div
-                className="w-full lg:w-6/12"
-              >
-                <h2 className="text-white text-6xl font-semibold"
-                style={{ textShadow: "1px 1px 0 #000"}}>
+              <div className="w-full lg:w-6/12">
+                <h2
+                  className="text-white text-6xl font-semibold"
+                  style={{ textShadow: "1px 1px 0 #000" }}
+                >
                   Our Product
                 </h2>
                 {/* <p className="text-lg leading-relaxed m-4 text-gray-600">
