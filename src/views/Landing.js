@@ -302,7 +302,7 @@ export default function Landing() {
                               fontWeight: "600",
                             }}
                           >
-                            <i className="far fa-paper-plane"></i>
+                            <i class="fas fa-star"></i>
                           </span>
                         </div>
                         <div>
