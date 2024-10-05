@@ -7,7 +7,7 @@ import mobileAppUI1 from "../assets/img/UI_test.png";
 import mobileFrame from "../assets/img/iphone-frame.png";
 import mobileAppUI3 from "../assets/img/iphone-frame.png";
 import problemAndSolution from "../assets/img/problem&solution.png";
-import bagImge from "../assets/img/bags.png";
+import bagImge from "../assets/img/bags.jpeg";
 
 export const OLIVE_GREEN = "#4B6F44";
 export const SAGE_GREEN = "#8B9E77";
@@ -324,6 +324,7 @@ export default function Landing() {
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
                   src={bagImge}
+                  style={{ width: "25rem", height: "30rem", objectFit: "fit" }}
                 />
               </div>
 
