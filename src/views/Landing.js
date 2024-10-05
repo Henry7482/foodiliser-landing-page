@@ -3,9 +3,10 @@ import React from "react";
 import Navbar from "components/Navbar.js";
 import Footer from "components/Footer.js";
 import backgroundImage from "../assets/img/background-1.jpeg";
-import mobileAppUI1 from "../assets/img/UI_test.png";
+import mobileAppUI1 from "../assets/img/UI_OurPartner.png";
+import mobileAppUI2 from "../assets/img/UI_Dashboard.png";
+import mobileAppUI3 from "../assets/img/UI_Compose.png";
 import mobileFrame from "../assets/img/iphone-frame.png";
-import mobileAppUI3 from "../assets/img/iphone-frame.png";
 import problemAndSolution from "../assets/img/problem&solution.png";
 import bagImge from "../assets/img/bags.jpeg";
 
@@ -540,7 +541,8 @@ export default function Landing() {
                       objectFit: "fill",
                       width: "87%",
                       height: "98%",
-                      paddingTop: "5%",
+                      paddingTop: "4%",
+                      borderRadius: "1rem"
                     }}
                   />
                   <img
@@ -551,7 +553,7 @@ export default function Landing() {
                   />
                 </div>
                 <div className="pt-6 text-center">
-                  <h5 className="text-xl font-bold">Track Food Waste</h5>
+                  <h5 className="text-xl font-bold">Our Partners</h5>
                 </div>
               </div>
               <div className="flex flex-col items-center relative w-full md:w-4/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
@@ -561,13 +563,14 @@ export default function Landing() {
                 >
                   <img
                     alt="UI"
-                    src={mobileAppUI1}
+                    src={mobileAppUI2}
                     className="shadow-lg rounded-lg w-full h-full mx-auto"
                     style={{
                       objectFit: "fill",
                       width: "87%",
                       height: "98%",
-                      paddingTop: "5%",
+                      paddingTop: "4%",
+                      borderRadius: "1rem"
                     }}
                   />
                   <img
@@ -579,24 +582,25 @@ export default function Landing() {
                 </div>
                 <div className="pt-6 text-center">
                   <h5 className="text-xl font-bold">
-                    Track Composting Process
+                    Track Food Waste
                   </h5>
                 </div>
               </div>
               <div className="flex flex-col items-center relative w-full md:w-4/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div
                   className="mobile-ui relative px-6"
-                  style={{ width: "20rem", height: "33rem" }}
+                  style={{ width: "20rem", height: "33rem"}}
                 >
                   <img
                     alt="UI"
-                    src={mobileAppUI1}
+                    src={mobileAppUI3}
                     className="shadow-lg rounded-lg w-full h-full mx-auto"
                     style={{
                       objectFit: "fill",
                       width: "87%",
                       height: "98%",
-                      paddingTop: "5%",
+                      paddingTop: "4%",
+                      borderRadius: "1rem"
                     }}
                   />
                   <img
@@ -607,7 +611,7 @@ export default function Landing() {
                   />
                 </div>
                 <div className="pt-6 text-center">
-                  <h5 className="text-xl font-bold">Home Page</h5>
+                  <h5 className="text-xl font-bold">View Progress</h5>
                 </div>
               </div>
             </div>
